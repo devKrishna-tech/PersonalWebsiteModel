@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  }
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+button{
+    border: 0.5px solid black;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+}
+button:hover{
+    color:white;
+    background-color: rgb(64, 51, 77);
+}
+button:active{
+    color:white;
+    background-color: rgba(64, 51, 77, 0.603);
+}
+/*NAVIGATION BAR*/
+.navbar{
+    position: fixed;
+    background-color: white;
+    /*border:0.5px solid black;*/
+    color: #f2f2f2;
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+.navcontent{
+    position: relative;
+    /*border:0.5px solid black;*/
+    padding-right: 50px;
+    text-decoration: none;
+    top: -25px;
+    color: black;
+    background-color: transparent;
+}
+.navcontent:hover{
+    color: rgb(64, 51, 77);
+}
+.Logo{
+    text-align: left;
+    padding-left: 40px;
+   /* border: 0.5px solid black;*/
+    color: #000;
+    font-size: 25px;
+}
+/*BODY STRUCTURE*/
+.bg{
+    /*position: relative;
+    top: 105px;*/
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: center;
+    /*border:0.5px solid blue;*/
+    background-color: white;
+    width: 100%;
+    height: 28cm;
+}
+.bgcolor{
+    border:0.5px solid black;    
+    }
+.boxs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.box1{
+    width: 10cm;
+    height: 13.45cm;
+    background-color: #efe9f3;
+    box-shadow: -11px 14px 9px -6px rgba(0,0,0,0.13);;
+}
+.box2{
+    width: 10cm;
+    height: 15cm;
+    background-color: white;
+ /*   border: 0.5px solid black;*/
+}
+.Picture{
+    width: 205px;
+    height: 205px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+/*SOCIAL MEDIA ICONS*/
+.sociallinks{
+    /*border: 0.5px solid red;*/
+    background-color: white;
+    height: 60px;
+    box-shadow: -11px 14px 9px -6px rgba(0,0,0,0.13);;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto 10px;
+  } 
+.fa-facebook {
+    /*border: 0.5px solid black;*/
+    background: transparent;
+    color: black;
+  }
+  .fa-twitter {
+   /* border: 0.5px solid black;*/
+    background: transparent;
+    color: black;
+  }
+  .fa-linkedin {
+    /*border: 0.5px solid black;*/
+    background: transparent;
+    color: black;
+ }
+  .fa-instagram {
+   /* border: 0.5px solid black;*/
+    background: transparent;
+    color: black;
+  }
+  /*FOOTER*/
+.footerbox{
+    /*border: 0.5px solid black;*/
+    display: flex;
+    align-items: stretch;
+    text-align: center;
+}
+.footeritem{
+    /*border: 0.5px solid black;*/
+    padding-left: 220px;
+    /*text-align: center;*/
+    color: #000;
+    font-size: 15px
+}
+.fa1{
+    padding: 15px;
+    font-size: 25px;
+    width: 30px;
+    text-decoration: none;
+    /*text-align: center;*/
+    margin: 10px 10px;   
+}
+.footerfollow{
+    position: relative;
+    left: 140px;
+    text-emphasis: emphasis;
+    text-decoration: none;
+}
